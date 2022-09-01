@@ -9,7 +9,6 @@ public interface UsersDao {
 	public void insert(JoinDto joinDto);
 	public Users findById(Integer id);
 	public List<Users> findAll();
-	public void updateById(Integer id);
 	public void deleteById(Integer id);
 	public void update(Users usersPS);
 }
