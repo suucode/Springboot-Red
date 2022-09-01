@@ -10,5 +10,5 @@ public interface UsersDao {
 	public Users findById(Integer id);
 	public List<Users> findAll();
 	public void deleteById(Integer id);
-	public void update(Users usersPS);
+	public void update(Users users);
 }
